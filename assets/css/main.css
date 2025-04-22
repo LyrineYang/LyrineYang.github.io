@@ -3220,3 +3220,8 @@ input, select, textarea {
 			}
 
 	}
+.contact-detail .fas { /* 选择 .contact-detail 下的所有 fas 图标 */
+    margin-right: 0.5em; /* 添加 0.5em 的右边距，em 是相对单位，会随字体大小缩放 */
+    /* 你可以根据视觉效果调整 0.5em 这个值 */
+    /* vertical-align: middle; */ /* 如果图标和文字垂直对不齐，可以尝试取消这行注释 */
+}
